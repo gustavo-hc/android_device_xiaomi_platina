@@ -278,6 +278,12 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/idc/uinput-goodix.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-goodix.idc
 
 # Init
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Secure element
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.msm.usb.configfs.rc \
