@@ -16,7 +16,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Permissions
 PRODUCT_COPY_FILES += \
