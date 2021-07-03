@@ -22,7 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/dot/config/common.mk)
 
+WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
+EXTRA_FOD_ANIMATIONS := true
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
