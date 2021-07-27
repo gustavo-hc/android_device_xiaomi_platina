@@ -26,6 +26,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+WITH_GAPPS := true
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
