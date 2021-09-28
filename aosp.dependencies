@@ -16,5 +16,11 @@
     "repository" : "LineageOS/android_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/platina",
     "branch"     : "lineage-18.1"
+  },
+  {
+    "repository": "vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware",
+    "branch":"eleven",
+    "remote":"pixel-devices-blobs"
   }
 ]
