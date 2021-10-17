@@ -7,3 +7,4 @@ vndbinder_use(hal_power_stats)
 add_service(hal_power_stats_server, power_stats_service)
 
 get_prop(hal_power_stats_default, wifi_hal_prop)
+allow hal_power_stats_default sysfs:dir { read };
