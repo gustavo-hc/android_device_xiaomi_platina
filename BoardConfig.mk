@@ -80,9 +80,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
-# DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
-
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 3.0
