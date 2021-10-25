@@ -279,6 +279,7 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
+    init.xiaomiparts.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
@@ -476,6 +477,13 @@ PRODUCT_COPY_FILES += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     PlatinaWifiOverlay
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-xiaomiparts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-xiaomiparts.xml
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
