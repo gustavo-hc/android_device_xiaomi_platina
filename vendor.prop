@@ -171,3 +171,6 @@ ro.vendor.sensors.mot_detect=true
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# BPF
+ro.kernel.ebpf.supported=true
