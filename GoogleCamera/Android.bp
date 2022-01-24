@@ -12,6 +12,7 @@ android_app_import {
         "Snap",
         "Camera2",
         "Camera",
+	"GoogleCamera",
     ],
     product_specific: true,
 }
