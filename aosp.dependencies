@@ -9,7 +9,7 @@
     "remote":      "github",
     "repository" : "PixelExperience-Devices/kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
-    "branch"     : "twelve"
+    "branch"     : "twelve-wip"
   },
   {
     "repository": "vendor_xiaomi-firmware",
