@@ -19,7 +19,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-aosp
+    $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
     NotchBarKiller
