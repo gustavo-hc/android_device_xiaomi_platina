@@ -30,6 +30,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_USES_AOSP_RECOVERY := true
 
+# GApps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
