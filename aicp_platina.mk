@@ -26,6 +26,9 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
+# GApps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
