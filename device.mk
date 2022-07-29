@@ -216,6 +216,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
