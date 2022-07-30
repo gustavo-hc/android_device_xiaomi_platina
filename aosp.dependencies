@@ -12,12 +12,6 @@
     "branch"     : "twelve"
   },
   {
-    "repository": "vendor_xiaomi-firmware",
-    "target_path": "vendor/xiaomi-firmware",
-    "branch":"twelve",
-    "remote":"pixel-devices-blobs"
-  },
-  {
     "repository": "jjpprrrr/prelude-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-prelude",
     "branch": "master",
