@@ -13,6 +13,10 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
 DEVICE_PATH := device/xiaomi/platina
 
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
