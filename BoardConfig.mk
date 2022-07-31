@@ -109,8 +109,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_platina
 TARGET_RECOVERY_DEVICE_MODULES := libinit_platina
 
 # Dynamic Partitions
-SSI_PARTITIONS := system
-TREBLE_PARTITIONS := vendor
+SSI_PARTITIONS := system system_ext product
+TREBLE_PARTITIONS := vendor odm
 ALL_PARTITIONS := $(SSI_PARTITIONS) $(TREBLE_PARTITIONS)
 $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
